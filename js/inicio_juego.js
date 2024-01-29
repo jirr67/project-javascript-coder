@@ -87,7 +87,7 @@
      marcadorTemporal.remove(); 
      let marcador = document.createElement("div");
      marcador.id="marcador";
-    
+     marcador.className="contadores";
      marcador.innerHTML +=` <br></br>
      <div class="card" style="width: 18rem;">
      <ul class="list-group list-group-flush">
@@ -101,6 +101,7 @@
    }else{
      let marcador = document.createElement("div");
      marcador.id="marcador";
+     marcador.className="contadores";
      marcador.innerHTML +=`<br></br>
      <div class="card" style="width: 18rem;">
      <ul class="list-group list-group-flush">

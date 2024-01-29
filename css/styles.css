@@ -46,3 +46,17 @@ margin-top: 5%;
 justify-content: center;
  flex-direction: column;
 }
+
+
+.contadores{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-weight: bolder;
+}
+
+.list-group-item{
+  background-image: url("../src/images/cartelInicio.jpg");
+  background-size: cover;  
+  background-color: #F0A26C;
+}
