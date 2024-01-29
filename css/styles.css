@@ -1,0 +1,48 @@
+.caja{
+    margin-left: 5px;
+    margin-top: 5%;;
+
+}
+
+
+html{
+  height: 100%;
+  cursor: url("../src/images/mira2.png") 0 0 , auto;
+ 
+}
+
+body{
+  background-image: url("../src/images/fondo.jpg");
+  background-size: cover;  
+}
+
+.contenedorCajas{
+display: flex;
+flex-direction: row;
+}
+
+
+.seccionInicio{
+display: flex;
+justify-content: center;
+margin-top: 5%;
+}
+
+.botonInicio{
+  background-image: url("../src/images/cartelInicio.jpg");
+  background-size: cover;  
+  background-color: transparent;
+  border: 0;
+  font-weight:bold;
+  color: black;
+}
+
+.botonInicio:hover{
+  background-color: transparent;  
+}
+
+.card-body{
+  display: flex;
+justify-content: center;
+ flex-direction: column;
+}
