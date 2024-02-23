@@ -16,6 +16,17 @@ body{
   background-size: cover;  
 }
 
+.chuckNorris{
+  color: white;
+}
+
+.incorrecto{
+  color: red;
+}
+.victoria{
+  color: rgb(55, 217, 55);
+}
+
 .contenedorCajas{
 display: flex;
 flex-direction: row;
